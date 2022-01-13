@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S H A Z A M</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- back -->
+
+    <!-- back -->
+    <audio src="power up.mp3" id="turn_on"></audio>
+
+    <!-- background -->
+
+    <!-- weather -->
+    <div class="machine">
+      <div class="clock cont">
+        <img
+          src="https://teds-jarvis.netlify.app/clock1.png"
+          alt="ok"
+          class="icon"
+        />
+        <p id="time">Hello</p>
+      </div>
+
+      <div class="internet cont">
+        <img
+          src="https://teds-jarvis.netlify.app/internet1.png"
+          alt=""
+          class="icon"
+        />
+        <p id="internet"></p>
+      </div>
+
+      <div class="battery cont">
+        <img
+          src="https://teds-jarvis.netlify.app/battery1.png"
+          alt=""
+          class="icon"
+        />
+        <p id="battery"></p>
+      </div>
+
+      <div class="temp">
+        <p id="location"></p>
+        <p id="country"></p>
+        <p id="weatherT"></p>
+        <p id="weatherD"></p>
+        <img src="" id="weatherIcon" alt="" />
+        <p id="oTemp"></p>
+
+        <p id="feelLikeTemp"></p>
+        <p id="minT"></p>
+        <p id="maxT"></p>
+      </div>
+
+      <img
+        src="https://teds-jarvis.netlify.app/iron_man.gif"
+        alt=""
+        id="iron_man"
+      />
+      <img src="https://teds-jarvis.netlify.app/heart.gif" alt="" id="heart" />
+    </div>
+
+    <div id="start_jarvis_btn" title="start JARVIS" class="">
+      <img src="https://i.gifer.com/1Kte.gif" alt="" />
+      <div class="Start Jarvis">Start Jarvis</div>
+    </div>
+
+    <!-- weather end -->
+
+    <!-- jarvis setup -->
+
+    <div class="jarvis_setup in_middle">
+      <label for="">Your Name</label>
+      <input type="text" />
+      <br />
+      <label for="">Your Profession</label>
+      <input type="text" />
+      <br />
+      <label for="">Your Location</label>
+      <input type="text" />
+      <br />
+      <label for="">Instagram Profile</label>
+      <input type="text" />
+      <br />
+      <label for="">GitHub Profile</label>
+      <input type="text" />
+      <br />
+      <label for="">Twitter Profile</label>
+      <input type="text" />
+
+      <br />
+      <button id="sub_btn">Submit</button>
+    </div>
+
+    <!-- jarvis setup -->
+
+    <div class="messages"></div>
+
+    <div class="commands in_middle"></div>
+
+    <button id="start" style="display: none">vr start</button>
+    <button id="stop" style="display: none">vr stop</button>
+    <button id="speak" style="display: none">speak out</button>
+    <noscript>You need javascript for this</noscript>
+  </body>
+</html>
+<script src="main.js"></script>
